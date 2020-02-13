@@ -28,7 +28,6 @@ export class App extends React.Component {
             // <h1 style={style1}>Hej class</h1>
             <div>
                 <Layout />
-                <Content />
             </div>
             
         )

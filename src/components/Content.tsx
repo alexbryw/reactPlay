@@ -1,12 +1,14 @@
-import React, {CSSProperties} from 'react'
+import React, {CSSProperties} from 'react';
+import SectionItem from "./SectionItem";
 
 export default function Content(){
     return(
         <div>
-            <h1>content-</h1>
-            <h3>item1</h3>
-            <h3>item2</h3>
-            <h3>item3</h3>
+            <SectionItem 
+                imgURL="https://upload.wikimedia.org/wikipedia/commons/c/c7/Boulton_and_Watt_centrifugal_governor-MJ.jpg"
+                altText="A" />
+            <SectionItem imgURL="B" altText="b"/>
+            <SectionItem imgURL="C" altText="c"/>
         </div>
     )
 }
