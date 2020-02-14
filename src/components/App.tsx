@@ -25,11 +25,7 @@ import Content from "./Content";
 export class App extends React.Component {
     render() {
         return (
-            // <h1 style={style1}>Hej class</h1>
-            <div>
-                <Layout />
-            </div>
-            
+            <Layout />
         )
     }
 }

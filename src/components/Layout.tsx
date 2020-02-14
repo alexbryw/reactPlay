@@ -5,7 +5,7 @@ import Content from "../components/Content";
 
 export default function Layout(){
     return (
-        <div>
+        <div className="layoutHolder" style={layout}>
             <Navbar />
             <Content />
         </div>
@@ -13,6 +13,8 @@ export default function Layout(){
 };
 
 const layout : CSSProperties = {
-    backgroundColor: "green",
-    height: "100%"
+    display: "flex",
+    flexDirection: "column",
+    height: "100%",
+    backgroundColor: "#303030"
 };
